@@ -1,0 +1,183 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-bar{
+    background-color: rgba(9, 64, 140, 1);
+    color: white;
+    font-size: 20px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+#body{
+    background-color: rgba(245, 245, 251, 1);
+}
+.nav-bar-list{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    float: left;
+}
+
+.nav-bar-subtitle{
+    float: right;
+}
+
+#nav-bar-subtitle{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(15, 73, 152, 1);
+    border-radius: 12px;
+    padding: 5px 18px;
+}
+
+.li{
+    display: block;
+    text-align: center;
+}
+
+#nav-bar-hr{
+    margin: 0;
+    border: 2px solid rgba(245, 130, 32, 1) ;
+    background-color: rgba(245, 130, 32, 1);
+}
+
+.tabela_vendas{
+    width:100%;
+    margin-bottom: 50px;
+}
+
+.linha{
+    background-color: white; 
+}
+
+.tabela_vendas th,
+.tabela_vendas td{
+    width: 100vh;
+}
+
+.tabela_vendas tr{
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 12px;
+}
+
+.tabela_vendas th{
+    width: 250px;
+}
+
+.tabela-vendas tr{
+    width: 250px;
+}
+
+#date{
+    min-width: 15%;
+}
+
+#produto{
+    min-width: 30%;
+}
+
+#valor{
+    min-width: 10%;
+
+}
+
+#nome-aluno{
+    min-width: 25%;
+}
+
+#payment{
+    min-width: 20%;
+}
+
+.margin-left{
+    margin-left: 10px;
+}
+
+.table-head{
+    color: rgba(65, 68, 86, 1);
+}
+
+.header{
+    color: rgba(65, 68, 86, 1);
+}
+
+.table-body{
+    color: rgba(39, 38, 38, 1);
+}
+  
+.table-body > tr {
+    padding: 12px;
+}
+  
+#vendas th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#table-hr{
+    height: 1px;
+    color: rgba(0, 0, 0, 0.344);
+}
+
+.header{
+    margin-top: 40px;
+}
+
+.total{
+    background-color: rgba(216, 245, 219, 1);
+    color: rgba(2, 154, 66, 1);
+    border-radius: 9px;
+    width: 130px;
+    padding: 7px 16px 7px 16px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.tabela-img{
+    width: 90px;
+    border-radius: 10px;
+}
+
+#payment::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(2, 154, 66, 1);
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.header{
+    padding-right: 30px;
+}
+
+.titulo{
+    font-weight: 600;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    margin-right: 10px;
+}
+
+/* tbody > tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+thead > tr {
+    display: flex;
+    justify-content: space-between;
+}
+   */
+
